@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+img{
+    width: 100%;
+}
+
+.header{
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.navbar ul li a{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+.template{
+    text-align: center;
+    color: #fff;
+}
+.template h3{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 5rem;
+}
+.template h1{
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.mogo-line{
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin: 2rem auto;
+}
+.learn-more-button{
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 5px 15px;
+    margin-bottom: 5rem;
+}
+.line-text{
+    margin-bottom: 1rem;
+}
+.white-line{
+    width: 150px;
+    height: 2px;
+    background-color: #fff;
+}
+.text{
+    color: #fff;
+}
+
+
+
+/* about section css */
+.about{
+    text-align: center;
+}
+.what-we-do{
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 5rem;
+    font-size: 24px;
+}
+.story-about-us{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.about-line{
+    width: 50px;
+    height: 2px;
+    background-color: magenta;
+    margin: 2rem auto;
+}
+.paragraph{
+    font-size: 15px;
+    padding: 0 8rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5rem;
+}
+.about-image{
+    margin-bottom: 5rem;
+}
+
+
+/* details section css  */
+.details-section{
+    background-color: #95e1d3;
+}
+
+.details{
+    text-align: center;
+    color: #fff;
+
+}
+.number{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    margin-top: 3rem;
+}
+.projects-name{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 3rem;
+}
+
+
+
+/* service area css */
+.service{
+    text-align: center;
+}
